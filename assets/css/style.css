@@ -1,0 +1,21 @@
+body{
+	background-color: #81d8d0;
+	text-align: center;
+}
+
+h1{ background-color: blue;
+	color: white;
+}
+
+#instructions{
+	background-color: white;
+}
+
+#random-number{
+	background-color: green;
+}
+
+
+#results{
+	background-color: white;
+}
