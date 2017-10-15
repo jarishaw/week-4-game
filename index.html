@@ -3,6 +3,7 @@
 <head>
 	<title>Crystal Collector Game</title>
 
+<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
 	<!--Link CSS-->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -11,35 +12,44 @@
 
 
 
+
+
 </head>
 
 <body>
 
-	<div>
-		<h1>Crystal Collector</h1>
-	</div>
+	<header id="gameName">
+		<div class="container">
+		<h1>Crystal Collector!</h1>
+		</div>
+	</header>
+	
 
 	<div id="instructions">
-		<p>You will be given...</p>
+		<p>You will be given a random number at the start of the game.</p>
 
-		<p>There are four....</p>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 
-		<p>You win the game...</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
 
-		<p>The value...</p>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
 
-		<p>Each value...</p>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
 	</div>
 
+
+	<section id="numberResults">
 	<div id= "random-number">
 	</div>
 
 	<div id= "results">
 		<p><span id="result"></span></p>
-		<p>wins:<span id="Wins"></span></p>
-		<p>losses:<span id="Losses"></span></p>
-
+		<p>Wins:<span id="wins"></span></p>
+		<p>Losses:<span id="losses"></span></p>
 	</div>
+	</section>
+
 
 	<div id= "images">
 
@@ -53,11 +63,14 @@
 
 	</div>
 
-	<div>Your total score is:</div>
+	<div class="total">Your total score is:</div>
 
-	<div id="increments">
+
+	<div id="scoreIs">
 		<p><span id="score"></span></span>
 	</div>
+
+	<!--<button id= "restartGame">Play Again</button-->
 
 		<!--Link jquery-->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

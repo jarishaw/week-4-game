@@ -1,21 +1,84 @@
 body{
 	background-color: #81d8d0;
-	text-align: center;
+	font-family: 'Berkshire Swash', cursive;	
 }
 
-h1{ background-color: blue;
-	color: white;
+
+#gameName .container{
+	background-color: white;
+	border-width:5px;  
+    border-style:outset;
+	width: 275px;
+	text-align: center;
+}
+h1{ 
+	color: black;
 }
 
 #instructions{
 	background-color: white;
+	border-width:5px;  
+    border-style:outset;
+	width: 500px;
+
 }
 
 #random-number{
-	background-color: green;
+	background-color: white;
+	 border-width:5px;  
+    border-style:inset;
+	width: 200px;
+	height: 115px;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: 10px;
+	float: left;
 }
 
 
 #results{
 	background-color: white;
+	border-width:5px;  
+    border-style:outset;
+	width: 100px;
+	height: 115px;
+	font-size: 16px;
+	font-weight: bolder;
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.total{
+	border-width:5px;  
+    border-style:outset;
+	background-color: white;
+	width: 150px;
+	margin-top: 15px;
+	font-weight: bolder;
+}
+
+
+#images{
+	clear: both;
+	overflow: auto;
+	padding-top: 25px;
+}
+
+.diamond-image{
+	height:125px;
+	width:125px;
+	padding-right: 15px;
+	border-width:5px;  
+    border-style:outset;
+
+}
+
+#scoreIs{
+	background-color: white;
+	border-width:5px;  
+    border-style:outset;
+	width: 150px;
+	font-weight: bolder;
+	font-size: 30px;
 }

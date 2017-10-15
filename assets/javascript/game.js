@@ -7,34 +7,28 @@ var losses = 0
 var counter = 0
 
 //random number between 19 and 120
-var randomNumber = Math.round(Math.random() * (120-19+1) + 19);
+var randomNumber = Math.round(Math.random() * (120-19+1)) + 19;
 
 
 //random number between 1 and 12 for each image
-var square = Math.round(Math.random() * (12-1+1) + 1);
+var square = Math.round(Math.random() * (12-1+1)) + 1;
 
-var pear = Math.round(Math.random() * (12-1+1) + 1);
+var pear = Math.round(Math.random() * (12-1+1)) + 1;
 
-var rounded = Math.round(Math.random() * (12-1+1) + 1);
+var rounded = Math.round(Math.random() * (12-1+1)) + 1;
 
-var eye = Math.round(Math.random() * (12-1+1) + 1);
+var eye = Math.round(Math.random() * (12-1+1)) + 1;
 
 
 //displays random number
 $("#random-number").text(randomNumber);
 
+$("#score").html("0");
 
 
 
 
-
-//when image clicked display random number
-// $("#square").on("click", function() 
-
-
-
-
-//at start of game
+//start game
 var restart = function() {
 
 randomNumber = Math.round(Math.random() * (120-19+1) + 19);
@@ -42,13 +36,13 @@ randomNumber = Math.round(Math.random() * (120-19+1) + 19);
 $("#random-number").text(randomNumber);
 
 
-square = Math.round(Math.random() * (12) + 1);
+square = Math.round(Math.random() * (12-1+1) + 1);
 
-pear = Math.round(Math.random() * (12) + 1);
+pear = Math.round(Math.random() * (12-1+1) + 1);
 
-rounded = Math.round(Math.random() * (12) + 1);
+rounded = Math.round(Math.random() * (12-1+1) + 1);
 
-eye = Math.round(Math.random() * (12) + 1);
+eye = Math.round(Math.random() * (12-1+1) + 1);
 
 counter = 0;
 $("#score").html("0");
@@ -58,7 +52,7 @@ $("#score").html("0");
 
 
 
-//if statements
+//is statemente for rules of the game
 var rules = function() {
  if (counter === randomNumber){
  	$("#result").html("You Win!!");
