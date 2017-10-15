@@ -120,67 +120,6 @@ rules();
 })
 
 
-
-
-// //when image clicked display random number
-// $("#square").on("click", function() {
-
-// counter = counter + square;
-
-// rules ();
-
-
-// })
-
-// //computer choosing a random number..but this is javascript..is this ok???//
-
-// //var minTargetNumber = 19;
-// var maxTargetNumber = 120;
-
-// // var counter = 0;
-
-// var randomNumber = randomNumberFromRange(minTargetNumber, maxTargetNumber);
-
-// function randomNumberFromRange (min,max) {
-// 	return Math.round(Math.random() * (max-min+1) + min);
-
-// }
-
-// $("#random-number").text(randomNumber);
-
-
-//  //Number option applied to each crystal image//
-
-
-
-
-
-
-
-// for (var i = 0; i < diamondNumber.length; i++) {
-
-// $(".diamond-image").attr("data-diamondValue", 
- 
-//  }
-
-// $(".diamond-image").on("click", function() {
-
-
-// var diamondValue = ($(this).attr("data-diamondValue"));
-// diamondValue = parseInt(diamondValue);
-
-
-// counter += diamondValue;
-
-
-// alert("your number is" + counter);
-
-
-// })
-
-
-
-
 });
 
 
